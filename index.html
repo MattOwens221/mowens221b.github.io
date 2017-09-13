@@ -14,13 +14,13 @@
                 font-weight: bold;
             }
             [id=all-contents] {
-                max-width: 800px;
+                max-width: 1500px;
                 margin: auto;
             }
     
             /* navigation menu */
             nav {
-                background: rgb(56, 7, 14);
+                background: darkred;
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
@@ -30,6 +30,7 @@
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                font-family: Helvetica;
             }
             nav ul {
                 list-style-image: none;
@@ -54,6 +55,7 @@
             }
             [class=sidebar] img {
                 width: 200px;
+                height: auto;
             }
             [class=content] {
                 flex: 1;
@@ -62,12 +64,18 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
+            
+            h1 {
+                font-size: 40px;
+                margin-top: 0;
+            }
         </style>
    </head>    
    
    <body>
        <div id="all-contents">
            <nav>
+               <header>Matthew Owens</header>
                <ul>
                    <li><a href="index.html">Home</a></li>
                    <li><a href="portfolio.html">Portfolio</a></li>
@@ -77,12 +85,11 @@
            
            <main>
                <div class = "sidebar">
-                   
+                   <img src="July 24, 2017 at 0456PM.jpg">
                </div>
                
                <div class = "content">
-                   <h1>Matthew Owens</h1>
-                   <img src="July 24, 2017 at 0456PM.jpg" height="300px" width="auto">
+                   <h1>Welcome To My Website!</h1>
                    <p>Student at Destrehan High School</p>
                    <h4><b>Interests:</b></h4>
                    <ul>
@@ -90,6 +97,7 @@
                        <li>Music</li>
                        <li>Digital Media</li>
                    </ul>
+                   
                </div>
            </main>
        </div>
